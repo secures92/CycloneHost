@@ -1,0 +1,13 @@
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\bin\Debug\CycloneHost.exe
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\bin\Debug\CycloneHost.pdb
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\GCodeView.baml
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\GCodeView.g.cs
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\CycloneHost_MarkupCompile.cache
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\CycloneHost.g.resources
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\CycloneHost.Form1.resources
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\CycloneHost.Properties.Resources.resources
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\CycloneHost.csproj.GenerateResource.Cache
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\CycloneHost.exe
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\CycloneHost.pdb
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\CycloneHost.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\SkyDrive\Workspace\Visual Studio\CycloneHost\CycloneHost\obj\Debug\CycloneHost_Content.g.cs
