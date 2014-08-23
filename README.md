@@ -1,7 +1,7 @@
 CycloneHost
 ===========
 
-Hostsoftware for Cyclone PCB Factory for GRBL and Marlin
+Hostsoftware for Cyclone PCB Factory which supports GRBL and Marlin
 
 Status
 ---
