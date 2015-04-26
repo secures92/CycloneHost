@@ -1,7 +1,7 @@
 CycloneHost
 ===========
 
-Hostsoftware for Cyclone PCB Factory which supports GRBL and Marlin
+Hostsoftware for Cyclone PCB Factory which supports GRBL and Marlin. This is still an ALPHA Version! Don't use this program unattended. There are lots of bugs which can damage your material / your machine. I am not responsible for any damage caused by this program.
 
 MailingList: https://groups.google.com/forum/#!topic/cyclone-pcb-factory/PVyZwTy9N0M
 
@@ -18,10 +18,11 @@ Status
 Whats missing:
 - Store settings
 - Probe & GCode adaption
+- Testing
 
 ScreenShots
 ---
-<table border="0">
+<table>
 <tr>
 <td><IMG SRC="https://lh3.googleusercontent.com/-ePv0jzU7CLo/VSeC-DaQQ9I/AAAAAAAABro/u5HhxZGU6uo/s1600/Gcode.png"></td>
 <td><IMG SRC="https://lh3.googleusercontent.com/-jrsMXodsGIU/VSeDEbi0KzI/AAAAAAAABrw/s77yw3XgHwI/s1600/ManualControl.png"></td>
@@ -35,8 +36,7 @@ ScreenShots
 Licence
 ---
 
-<table border="0">
-<td><IMG SRC="http://www.nature.com/bjc/images/by_nc_sa_2.png"></td>
-<td> This project is licenced under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> </td>
-</table>
+
+<IMG SRC="http://www.nature.com/bjc/images/by_nc_sa_2.png">
+This project is licenced under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
