@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Parsing options for GRBL 
+	!do not change until you know what you're doing 
+-->
+	
+<!-- RegexPattern for M114 Parser 
+	 http://derekslager.com/blog/posts/2007/09/a-better-dotnet-regular-expression-tester.ashx
+	 
+	 XML has a special set of characters that cannot be used in normal XML strings. These characters are:
+		& - &amp;
+		< - &lt;
+		> - &gt;
+		" - &quot;
+		' - &#39;
+-->
+<Regex>
+<RegexPattern>&lt;(.*),MPos:(.*),(.*),(.*),WPos:(.*),(.*),(.*)&gt;</RegexPattern>
+
+<!-- RegexMatchArray Indexes 
+	 MatchArray Index starts with 1 
+	 If your machine doesn't have a dual coordinate system
+	 use same indexes for Machine- and Work Coordinates 
+-->
+<Status> 1</Status>			<!-- MachineStatus - String -->
+<MX>2</MX>					<!-- Machine X-Coordinate - Double -->
+<MY>3</MY>					<!-- Machine Y-Coordinate - Double -->
+<MZ>4</MZ>					<!-- Machine Z-Coordinate - Double -->
+<WX>5</WX>					<!-- Work X-Coordinate - Double -->
+<WY>6</WY>					<!-- Work X-Coordinate - Double -->
+<WZ>7</WZ>					<!-- Work X-Coordinate - Double -->
+</Regex>

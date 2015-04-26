@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Settings for Shapeoko2 and GRBL-->
+<Settings>
+  <ManualControl>
+    <XYMovementFeed>1000</XYMovementFeed>				<!--mm/min-->
+	<ZMovementFeed>300</ZMovementFeed>					<!--mm/min-->
+	<InvertXAxis>0</InvertXAxis>						<!--0=FALSE;1=TRUE-->
+	<InvertYAxis>0</InvertYAxis>						<!--0=FALSE;1=TRUE-->
+	<InvertZAxis>0</InvertZAxis>						<!--0=FALSE;1=TRUE-->
+  </ManualControl>
+  <GcodeStreaming>
+    <XYMaximumFeed>1000</XYMaximumFeed>				<!--mm/min-->
+	<ZMaximumFeed>300</ZMaximumFeed>					<!--mm/min-->
+	<BufferSize>10</BufferSize>							<!--Number-->
+	<PingPongProtocol>1</PingPongProtocol>				<!--0=FALSE;1=TRUE-->
+  </GcodeStreaming>
+  <Probing>
+	<XYProbeFeed>50</XYProbeFeed>						<!--mm/min-->
+	<ZProbeFeed>50</ZProbeFeed>							<!--mm/min-->
+	<SafetyHeight>3</SafetyHeight>						<!--mm-->
+	<MaxDepth>-1</MaxDepth>								<!--mm-->
+	<PulloffHeight>1</PulloffHeight>					<!--mm-->
+  </Probing>
+  <CamVision>
+	<OffsetX>0</OffsetX>								<!--mm-->		
+	<OffsetY>0</OffsetY>								<!--mm-->
+  </CamVision>
+  <Misc>
+	<StatusUpdateInterval>1000</StatusUpdateInterval>	<!--ms-->	
+	<ShowStatusMessages>0</ShowStatusMessages>			<!--0=FALSE;1=TRUE-->
+	<ShowGRBLResponses>0</ShowGRBLResponses>			<!--0=FALSE;1=TRUE-->	
+  </Misc>
+ </Settings>

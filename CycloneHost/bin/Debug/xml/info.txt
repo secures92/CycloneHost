@@ -1,0 +1,27 @@
+File info
+---------------------------------------------------
+
+	The files
+		-Commands.xml
+		-Settings.xml
+		-MachineStatus.xml
+	are loaded automatically during the program start.
+	
+	To permanently change the settings or the command-set
+	modify these files. To apply the changes start/restart
+	CycloneHost.
+	
+	If your hardware does not support a specific command
+	you can use a whitespace. 
+		
+		For example:
+			<Info> </Info>
+	
+	CycloneHost will automatically skip this command.
+	
+Preconfigured Files
+----------------------------------------------------
+	
+	To use the preconfigured files replace the files in
+	this directory with the files in the Marlin / GRBL
+	folder.

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Parsing options for Marlin
+	!do not change until you know what you're doing 
+-->
+	
+<!-- RegexPattern for M114 Parser 
+	 http://derekslager.com/blog/posts/2007/09/a-better-dotnet-regular-expression-tester.ashx
+	 
+	 XML has a special set of characters that cannot be used in normal XML strings. These characters are:
+		& - &amp;
+		< - &lt;
+		> - &gt;
+		" - &quot;
+		' - &#39;
+		
+	Marlin Example Response
+		X:0.00 Y:0.00 RZ:0.00 LZ:0.00 Count X:0.00 Y:0.00 RZ:41.02 LZ:41.02
+-->
+<Regex>
+<RegexPattern>X:(.*) Y:(.*) RZ:(.*) LZ:(.*) Count X:(.*) Y:(.*) RZ:(.*) LZ:(.*)</RegexPattern>
+
+<!-- RegexMatchArray Indexes 
+	 MatchArray Index starts with 1 
+	 If your machine doesn't have a dual coordinate system
+	 use same indexes for Machine- and Work Coordinates 
+	 or disable them with -1
+-->
+<Status>-1</Status>			<!-- MachineStatus - String -->
+<MX>1</MX>					<!-- Machine X-Coordinate - Double -->
+<MY>2</MY>					<!-- Machine Y-Coordinate - Double -->
+<MZ>3</MZ>					<!-- Machine Z-Coordinate - Double -->
+<WX>-1</WX>					<!-- Work X-Coordinate - Double -->
+<WY>-1</WY>					<!-- Work X-Coordinate - Double -->
+<WZ>-1</WZ>					<!-- Work X-Coordinate - Double -->
+</Regex>

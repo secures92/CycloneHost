@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HelixToolkit.Wpf</id>
+    <version>2015.1.506</version>
+    <title>HelixToolkit.Wpf</title>
+    <authors>objo</authors>
+    <owners>objo</owners>
+    <licenseUrl>https://raw.githubusercontent.com/helix-toolkit/helix-toolkit/master/LICENSE</licenseUrl>
+    <projectUrl>http://helix-toolkit.github.io/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/helix-toolkit/helix-toolkit/master/Images/helixtoolkit.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides custom controls and extensions for WPF 3D.</description>
+    <tags>wpf wpf3d 3D</tags>
+    <dependencies>
+      <dependency id="HelixToolkit" version="2015.1.506" />
+    </dependencies>
+  </metadata>
+</package>

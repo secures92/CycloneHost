@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Commandset for GRBL-->
+<Commands>
+  <GCodes> 					<!-- G-CODES -->
+	<G00>G00</G00>			<!-- Positioning -->
+	<G01>G01</G01>			<!-- Linear Interpolation -->
+	<G02>G02</G02>			<!-- Circular Interpolation CW -->
+	<G03>G03</G03>			<!-- Circular Interpolation CCW -->
+	<G90>G90</G90>			<!-- Absolute Positioning -->
+	<G91>G91</G91>			<!-- Relative Positioning -->
+	<G92>G92</G92>			<!-- Set Position -->
+  </GCodes>
+  <MCodes>					<!-- M-CODES -->
+	<M03>M03</M03>			<!-- Spindle On CW -->
+	<M04>M04</M04>			<!-- Spindle On CCW -->
+	<M05>M05</M05>			<!-- Spindle Off -->
+	<M08>M08</M08>			<!-- Coolant On -->
+	<M09>M09</M09>			<!-- Coolant Off -->
+	<M10>M10</M10>			<!-- Vacuum On -->
+	<M11>M11</M11>			<!-- Vacuum Off -->
+	<M114>?</M114>
+  </MCodes>
+  <GenericCodes>			<!-- Generic-CODES -->
+	<X>X</X>				<!-- X Letter -->
+	<Y>Y</Y>				<!-- Y Letter -->
+	<Z>Z</Z>				<!-- Z Letter -->
+	<F>F</F>				<!-- F Letter -->
+	<I>I</I>				<!-- I Letter -->
+	<J>J</J>				<!-- J Letter -->
+  </GenericCodes>
+  <SpecificCodes>			<!-- Specific-CODES -->
+	<Probe>G38.2</Probe>	<!-- Probing -->
+	<Info>$I</Info>			<!-- Info -->
+	<Reset>(ctrl-x)</Reset>	<!-- Softreset -->
+  </SpecificCodes>
+ </Commands>
