@@ -11,6 +11,7 @@ Status
 - Serial Communication
 - GCode preview
 - GCode streaming
+- Camera alignment
 - Manual control
 - Load settings
 
