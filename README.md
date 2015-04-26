@@ -3,22 +3,27 @@ CycloneHost
 
 Hostsoftware for Cyclone PCB Factory which supports GRBL and Marlin
 
+MailingList: https://groups.google.com/forum/#!topic/cyclone-pcb-factory/PVyZwTy9N0M
+
 Status
 ---
  Whats working:
-- Serial Communication (with GRBL/ havent tested marlin)
-- Gcode preview
+- Serial Communication
+- GCode preview
+- GCode streaming
+- Manual control
+- Load settings
 
 Whats missing:
-- Gcode streaming
-- probe & gcode adaption
-- manual control
-- settings
+- Store settings
+- Probe & GCode adaption
 
-
-ScreenShot
+ScreenShots
 ---
-![](https://lh4.googleusercontent.com/-qg5xXxB2ZDc/U5NX0Bjgo0I/AAAAAAAABIc/wMjS-rq0Wg8/s1600/CycloneHost_preview_2.png)
+![](https://lh3.googleusercontent.com/-ePv0jzU7CLo/VSeC-DaQQ9I/AAAAAAAABro/u5HhxZGU6uo/s200/Gcode.png)
+![](https://lh3.googleusercontent.com/-jrsMXodsGIU/VSeDEbi0KzI/AAAAAAAABrw/s77yw3XgHwI/s200/ManualControl.png)
+![](https://lh3.googleusercontent.com/-y7SLb58Qd1E/VSeDMTiXkDI/AAAAAAAABr4/rc3wErL8Xtc/s200/Settings.png)
+![](https://lh3.googleusercontent.com/-qWAm1SVGK00/VSeDQTtVEbI/AAAAAAAABsA/k-Dsvzt8dvs/s200/CamView.png)
 
 
 Licence
