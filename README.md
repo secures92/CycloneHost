@@ -21,7 +21,7 @@ Whats missing:
 
 ScreenShots
 ---
-<table>
+<table border="0">
 <tr>
 <td><IMG SRC="https://lh3.googleusercontent.com/-ePv0jzU7CLo/VSeC-DaQQ9I/AAAAAAAABro/u5HhxZGU6uo/s1600/Gcode.png"></td>
 <td><IMG SRC="https://lh3.googleusercontent.com/-jrsMXodsGIU/VSeDEbi0KzI/AAAAAAAABrw/s77yw3XgHwI/s1600/ManualControl.png"></td>
@@ -35,7 +35,7 @@ ScreenShots
 Licence
 ---
 
-<table>
+<table border="0">
 <td><IMG SRC="http://www.nature.com/bjc/images/by_nc_sa_2.png"></td>
 <td> This project is licenced under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> </td>
 </table>
